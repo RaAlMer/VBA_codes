@@ -1,4 +1,4 @@
-Sub CopiaDatosArchivoLicitacion()
+Sub CopyData_Columns()
  Dim shO As Worksheet, shC As Worksheet, lastRowO As Long, lastRowC As Long
  Dim arrO As Variant, arrC As Variant, lastColO As Long, lastColC As Long
  Dim El As Variant, arrTransf As Variant, strH As String, copyCell As Range
@@ -55,7 +55,7 @@ WsSelection2:
         MsgBox "Please select the number located at the right of the chosen sheet!": GoTo WbSelection 'If the input is not numeric
     End If
 
- arrC = Split("Id|Number|Part|Seller|Description|Units|Total", "|")
+ arrC = Split("Id|Number|Part|Seller|Description|Units|Total", "|") 'Names from the columns to copy
  lastColO = shO.Cells(1, Cells.Columns.Count).End(xlToLeft).Column
  arrO = shO.Range(shO.Cells(1, 1), shO.Cells(1, lastColO)).Value
  'Copy the columns:
