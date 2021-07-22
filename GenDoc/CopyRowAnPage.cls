@@ -79,9 +79,9 @@ BuscID:
     End With
     
     'Format money
-    Range("i4:i" & LastRow2).NumberFormat = "#,##0.00 €_)"
-    Range("j4:j" & LastRow2).NumberFormat = "#,##0.00 €_)"
-    Range("k4:k" & LastRow2).NumberFormat = "#,##0.00 €_)"
+    Range("i4:i" & LastRow2).NumberFormat = "#,##0.00 â‚¬_)"
+    Range("j4:j" & LastRow2).NumberFormat = "#,##0.00 â‚¬_)"
+    Range("k4:k" & LastRow2).NumberFormat = "#,##0.00 â‚¬_)"
     
     'Align data in columns
     Range("a4:a" & LastRow2).HorizontalAlignment = xlCenter
