@@ -1,2 +1,2 @@
 # VBA
-VBA codes I write to automate Microsoft Office in my free time.
+Here, I'll publish my learning and projects using VBA.
